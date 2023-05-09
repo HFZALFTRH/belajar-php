@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,10 +10,10 @@
 </head>
 <body>
     <?php
-    $kosakata = "Aku sedang berada pada materi string preg_match()";
-    echo "kosakata sebelum di ubah: " . $kosakata ;
+    $strreplace = "kami sedang belajar php";
+    echo "kosakata sebelum di ubah: " . $strreplace ;
     echo "\n";
-    echo "kosakata setelah di ubah: " . str_replace("preg_match()", "preg_replace()", $kosakata);
+    echo "kosakata setelah di ubah: " . str_replace( $strreplace, "php", "javascript");
      ?>
     
 </body>
